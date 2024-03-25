@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const buttons = [
         {
             extend: 'excel',
-            text: '<i class="ti ti-file-spreadsheet"></i>',
+            text: '<i class="ti ti-file-spreadsheet"></i>', 
             className: 'btn btn-success',
             titleAttr: 'Exportar a Excel'
         },

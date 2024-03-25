@@ -23,7 +23,7 @@
                 <a href="#" class="text-nowrap logo-img text-center d-block py-3 w-100">
                   <img src="<?php echo base_url; ?>Assets/admin/images/logos/Logo.png" width="180" alt="">
                 </a>
-                <p class="text-center">Bienvenidos al Sistema</p>
+                <p class="text-center">Bienvenidos al Sistema test2</p>
                 <form autocomplete="off" id="frmLogin" onsubmit="frmLogin(event);">
                   <div class=" mb-3">
                     <label for="usuario" class="form-label">Usuario</label>

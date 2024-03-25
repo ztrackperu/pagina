@@ -8,5 +8,5 @@ const user = "root";
 const pass = "Lpmp2018";
 const db = "pagina";
 const charset = "charset=utf8";
-
+// se viene lo chido!
 ?>

@@ -4,7 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 header('charset=utf-8');
 
-    require_once "Config/Config.php";
+    require_once "Config/Config1.php";
     require_once "Config/Helpers.php";
     //date_default_timezone_set('America/Lima');
     $ruta = !empty($_GET['url']) ? $_GET['url'] : "Home/index";

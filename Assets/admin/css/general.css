@@ -1,0 +1,48 @@
+.row .titulo_respuesta {
+    background-color: black;
+    margin: 5px 0px 5px 0px;
+    height: 20px;
+    color: #fff;
+
+}
+
+.titulo h1{
+    font-size: 20px;
+}
+
+.titulo_respuesta .titulo {
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide {
+    position: relative; /* Establece la posición relativa para poder posicionar elementos hijos absolutamente */
+}
+
+.text-slider {
+    position: absolute; /* Posiciona el texto de manera absoluta */
+    top: 0; /* Lo sitúa en la parte superior */
+    left: 0; /* Lo sitúa en la parte izquierda */
+    padding: 20px; /* Agrega algún relleno para que el texto no esté demasiado pegado a los bordes */
+    background-color: rgba(255, 255, 255, 0.5); /* Un fondo semitransparente para que el texto sea legible */
+    color: black; /* Color del texto */
+}
+
+@media (max-width:320px) {
+
+    .titulo_respuesta .titulo  {
+        display: flex;
+        align-items: center;
+    }
+
+ .row .titulo h1 {
+        font-size: 15px;
+    }
+
+}
+
+.video-preview-container {
+    border: 2px solid black; /* Puedes ajustar el color y el grosor del borde según tus preferencias */
+    border-radius: 5px; /* Opcional: puedes añadir bordes redondeados */
+    padding: 5px; /* Opcional: puedes agregar un poco de espacio entre el borde y el video */
+}
